@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"> <!-- Arrière-plan gris clair -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@drawable/rounded_card"> <!-- Carte blanche -->
+
+        <!-- Titre -->
+        <TextView
+            android:id="@+id/addProjectTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter un Projet"
+            android:textSize="24sp"
+            android:textColor="#2C3E50"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Champ : Nom du projet -->
+        <TextView
+            android:id="@+id/projectNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom du projet"
+            android:textSize="16sp"
+            android:textColor="#7F8C8D"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/projectNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez le nom du projet"
+            android:textColor="#2C3E50"
+            android:textColorHint="#BDC3C7"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_edittext" />
+
+        <!-- Champ : Description -->
+        <TextView
+            android:id="@+id/projectDescriptionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description du projet"
+            android:textSize="16sp"
+            android:textColor="#7F8C8D"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/projectDescriptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez la description du projet"
+            android:textColor="#2C3E50"
+            android:textColorHint="#BDC3C7"
+            android:padding="16dp"
+            android:minHeight="120dp"
+            android:gravity="top|start"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_edittext" />
+
+        <!-- Champ : Date limite -->
+        <TextView
+            android:id="@+id/projectDeadlineLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date limite"
+            android:textSize="16sp"
+            android:textColor="#7F8C8D"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/projectDeadlineInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez la date limite (jj/mm/aaaa)"
+            android:textColor="#2C3E50"
+            android:textColorHint="#BDC3C7"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_edittext" />
+
+        <!-- Bouton Ajouter -->
+        <Button
+            android:id="@+id/addProjectButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:text="Ajouter le projet"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:elevation="4dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,110 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#E0E0E0"> <!-- Light grey background -->
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/addTaskTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter une Tâche"
+        android:textSize="24sp"
+        android:textColor="#2C3E50"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="24dp" />
+
+    <!-- Task Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom de la tâche"
+        android:textSize="16sp"
+        android:textColor="#34495E"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/taskNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez le nom de la tâche"
+        android:textColor="#34495E"
+        android:textColorHint="#BDC3C7"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_edittext" />
+
+    <!-- Task Description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16sp"
+        android:textColor="#34495E"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/taskDescriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez une description"
+        android:textColor="#34495E"
+        android:textColorHint="#BDC3C7"
+        android:padding="12dp"
+        android:minHeight="120dp"
+        android:gravity="top|start"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_edittext" />
+
+    <!-- Time Allocation -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temps estimé (heures)"
+        android:textSize="16sp"
+        android:textColor="#34495E"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/taskTimeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez le temps (en heures)"
+        android:inputType="numberDecimal"
+        android:textColor="#34495E"
+        android:textColorHint="#BDC3C7"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_edittext" />
+
+    <!-- Task Status -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statut de la tâche"
+        android:textSize="16sp"
+        android:textColor="#34495E"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/taskStatusSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_spinner" />
+
+    <!-- Add Task Button -->
+    <Button
+        android:id="@+id/addTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Ajouter la tâche"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="16sp" />
+</LinearLayout>
