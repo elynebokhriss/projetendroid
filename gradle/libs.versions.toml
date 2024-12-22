@@ -11,6 +11,13 @@ activity = "1.9.3"
 constraintlayout = "2.2.0"
 googleGmsGoogleServices = "4.4.2"
 firebaseMlVision = "24.1.0"
+<<<<<<< HEAD
+=======
+firebaseAuth = "23.1.0"
+firebaseAnalytics = "22.1.2"
+firebaseFirestore = "25.1.1"
+firebaseDatabase = "21.0.0"
+>>>>>>> 6b5740a (Premier commit)
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -22,6 +29,13 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 firebase-ml-vision = { group = "com.google.firebase", name = "firebase-ml-vision", version.ref = "firebaseMlVision" }
+<<<<<<< HEAD
+=======
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+>>>>>>> 6b5740a (Premier commit)
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

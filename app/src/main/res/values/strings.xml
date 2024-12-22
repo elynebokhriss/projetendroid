@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Tasks</string>
+<<<<<<< HEAD
+=======
+    <string name="profile_picture">Profile Picture</string>
+    <string name="home_activity_title" />
+    <string name="fill_all_fields" />
+    <string name="project_added_success" />
+>>>>>>> 6b5740a (Premier commit)
 </resources>

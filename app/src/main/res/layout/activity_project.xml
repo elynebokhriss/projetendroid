@@ -2,16 +2,26 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="#F5F5F5"> <!-- Arrière-plan gris clair -->
+=======
+    android:background="#F5F5F5"> <!-- Light grey background -->
+>>>>>>> 6b5740a (Premier commit)
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="24dp"
+<<<<<<< HEAD
         android:background="@drawable/rounded_card"> <!-- Carte blanche -->
 
         <!-- Titre -->
+=======
+        android:background="@drawable/rounded_card"> <!-- White card -->
+
+        <!-- Title -->
+>>>>>>> 6b5740a (Premier commit)
         <TextView
             android:id="@+id/addProjectTitle"
             android:layout_width="wrap_content"
@@ -23,7 +33,11 @@
             android:layout_gravity="center"
             android:paddingBottom="16dp" />
 
+<<<<<<< HEAD
         <!-- Champ : Nom du projet -->
+=======
+        <!-- Project Name Field -->
+>>>>>>> 6b5740a (Premier commit)
         <TextView
             android:id="@+id/projectNameLabel"
             android:layout_width="wrap_content"
@@ -44,7 +58,11 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/rounded_edittext" />
 
+<<<<<<< HEAD
         <!-- Champ : Description -->
+=======
+        <!-- Project Description Field -->
+>>>>>>> 6b5740a (Premier commit)
         <TextView
             android:id="@+id/projectDescriptionLabel"
             android:layout_width="wrap_content"
@@ -67,7 +85,11 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/rounded_edittext" />
 
+<<<<<<< HEAD
         <!-- Champ : Date limite -->
+=======
+        <!-- Deadline Field -->
+>>>>>>> 6b5740a (Premier commit)
         <TextView
             android:id="@+id/projectDeadlineLabel"
             android:layout_width="wrap_content"
@@ -88,7 +110,11 @@
             android:layout_marginBottom="24dp"
             android:background="@drawable/rounded_edittext" />
 
+<<<<<<< HEAD
         <!-- Bouton Ajouter -->
+=======
+        <!-- Add Button -->
+>>>>>>> 6b5740a (Premier commit)
         <Button
             android:id="@+id/addProjectButton"
             android:layout_width="match_parent"

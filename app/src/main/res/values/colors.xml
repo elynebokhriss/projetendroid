@@ -5,5 +5,11 @@
     <color name="primary_color">#6200EE</color>
     <color name="hint_color">#9E9E9E</color>
     <color name="background_color">#F5F5F5</color>
+<<<<<<< HEAD
+=======
+    <color name="violet">#8A2BE2</color>
+    <color name="_00ffffff">#00FFFFFF</color>
+
+>>>>>>> 6b5740a (Premier commit)
 
 </resources>

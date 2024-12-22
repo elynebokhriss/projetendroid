@@ -1,5 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
+<<<<<<< HEAD
         android:id="@+id/nav_home"
         android:title="Accueil"
         android:icon="@drawable/ic_home" /> <!-- Icône pour Accueil -->
@@ -13,4 +14,19 @@
         android:id="@+id/nav_settings"
         android:title="Paramètres"
         android:icon="@drawable/ic_settings" /> <!-- Icône pour Paramètres -->
+=======
+        android:id="@+id/nav_projects"
+        android:icon="@drawable/ic_project"
+        android:title="Projets" />
+
+    <item
+        android:id="@+id/nav_tasks"
+        android:icon="@drawable/ic_task"
+        android:title="Tâches" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Paramètres" />
+>>>>>>> 6b5740a (Premier commit)
 </menu>

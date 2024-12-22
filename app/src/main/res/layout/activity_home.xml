@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Titre ou Message de bienvenue -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue dans l'application de gestion de tasks"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Bouton Ajouter un Produit -->
+    <Button
+        android:id="@+id/addProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un projet"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Bouton Mettre à jour un Produit -->
+    <Button
+        android:id="@+id/ajouter_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ajouter tasks"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Bouton Supprimer un Produit -->
+    <Button
+        android:id="@+id/dashborduser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dashborduser"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

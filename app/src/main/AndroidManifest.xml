@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
@@ -48,3 +49,55 @@
     </application>
 
 </manifest>
+=======
+    package="com.example.tasks">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TasksApp"
+        android:theme="@style/Theme.Tasks">
+
+        <!-- Déclarez LoginActivity comme l'activité principale -->
+        <activity
+            android:name=".view.LoginActivity"
+            android:exported="true"
+            android:label="Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Autres activités -->
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".view.HomeActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".view.activity_project"
+            android:exported="true" />
+
+        <activity
+            android:name=".view.Activity_Task"
+            android:exported="true" />
+
+        <activity
+            android:name=".view.dashbord_admin"
+            android:exported="true" />
+
+        <activity
+            android:name=".view.SignUpActivity"
+            android:exported="true" />
+
+        <!-- Vous pouvez ajouter d'autres activités ici, si nécessaire -->
+
+    </application>
+
+</manifest>
+>>>>>>> 6b5740a (Premier commit)
